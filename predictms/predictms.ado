@@ -1,7 +1,16 @@
-*! version 4.5.1  09oct2026
+*! version 4.5.2  09oct2026
 
 /*
 History
+
+09oct2026 version 4.5.2:
+- bug fix, the number of quadrature points was not passed when calculating 
+  transition probabilities from the first state of an extended illness-death 
+  model; now fixed
+- the compiled library now matches the source: the 4.5.0 and 4.5.1 library 
+  was built before the final 4.5.0 change, which limits the faster 
+  standardisation within confidence interval calculations to single-event 
+  and competing-risks models
 
 09oct2026 version 4.5.1:
 - bug fix, msboxes could miscount the subjects in each state at the end of 

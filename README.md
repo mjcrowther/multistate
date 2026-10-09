@@ -1,6 +1,6 @@
 # multistate
 
-> **`multistate` is no longer developed.** Its successor is [`pendragon`](https://reddooranalytics.se/software/pendragon/), from Red Door Analytics, for multi-state and competing-risks models in R and Stata. `pendragon` is a complete rewrite with a new syntax, not a new version of `multistate`. This repository is an archive: version 4.5.1 is the final version, and can still be installed as described below.
+> **`multistate` is no longer developed.** Its successor is [`pendragon`](https://reddooranalytics.se/software/pendragon/), from Red Door Analytics, for multi-state and competing-risks models in R and Stata. `pendragon` is a complete rewrite with a new syntax, not a new version of `multistate`. This repository is an archive: version 4.5.2 is the final version, and can still be installed as described below.
 
 `multistate` provides a general framework for flexible parametric modelling of arbitrary multi-state survival models.
 
