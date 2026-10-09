@@ -1,7 +1,11 @@
-*! version 4.5.0  17mar2024
+*! version 4.5.1  09oct2026
 
 /*
 History
+
+09oct2026 version 4.5.1:
+- bug fix, msboxes could miscount the subjects in each state at the end of 
+  follow-up, as the last event time was stored as a float; now fixed
 
 17mar2024 version 4.5.0:
 - computational gains for standardise with singleevent and competing risks 

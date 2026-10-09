@@ -1,7 +1,8 @@
-*! version 1.0.0 26jan2021 MJC
+*! version 1.0.1 09oct2026 MJC
 
 /*
 History
+NS 14jun2023 version 1.0.1 - bug fix: the last event time was stored as a float, so a subject's end state could be missed; now a double
 NS 26jan2021 version 1.0.0 - lines 30, 34,35, 50, 41 adding extra options to the msboxes command
 						   - line 145 Make sure that if someone defines the transnames they give length equal to Ntransitions
 						   - line 187 Default transition Names for the frequency matrix if none are defined by the user during the msboxes command
