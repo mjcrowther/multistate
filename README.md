@@ -14,7 +14,7 @@ ssc install multistate
 To install directly from this GitHub repository, use:
 
 ```{stata}
-net install multistate, from("https://raw.githubusercontent.com/RedDoorAnalytics/multistate/main/")
+net install multistate, from("https://raw.githubusercontent.com/mjcrowther/multistate/main/")
 ```
 
 
