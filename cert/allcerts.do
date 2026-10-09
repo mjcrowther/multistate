@@ -1,5 +1,8 @@
+//============================================================================//
+// cert. script for multistate
 
-local drive /Users/michael/My Drive/software
+local drive /Users/michael/Library/CloudStorage
+local drive `drive'/OneDrive-RedDoorAnalyticsAB/software
 cd "`drive'/merlin"
 adopath ++ "`drive'/merlin"
 adopath ++ "`drive'/merlin/merlin"
@@ -9,8 +12,9 @@ clear all
 do ./build/buildmlib.do
 mata mata clear
 
-local drive /Users/Michael/My Drive/software/multistate
-cd "`drive'"
+local drive /Users/michael/Library/CloudStorage
+local drive `drive'/OneDrive-RedDoorAnalyticsAB/software
+cd "`drive'/multistate"
 adopath ++ "."
 adopath ++ "./msset"
 adopath ++ "./predictms"
